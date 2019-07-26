@@ -1,0 +1,28 @@
+{
+  "name": "movie-ticket-price-modeling",
+  "version": "1.0.0",
+  "description": "<https://cinemacity.co.jp/ticket/>",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha --require ts-node/register ./test/**/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/punkrou404/movie-ticket-price-modeling.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/punkrou404/movie-ticket-price-modeling/issues"
+  },
+  "homepage": "https://github.com/punkrou404/movie-ticket-price-modeling#readme",
+  "devDependencies": {
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.6.8",
+    "@types/power-assert": "^1.5.0",
+    "mocha": "^6.2.0",
+    "power-assert": "^1.6.1",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  }
+}
